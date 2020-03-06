@@ -5,7 +5,7 @@ if($_SERVER['HTTP_HOST'] == "127.0.0.1" or $_SERVER['HTTP_HOST'] == "localhost")
   #資料庫使用者帳號
   $db_user = "root";
   #資料庫使用者密碼
-  $db_password = "Ilove$520";
+  $db_password = "111111";
   #資料庫名稱
   $db_name = "office";
 }else{
