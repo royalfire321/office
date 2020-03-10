@@ -21,21 +21,23 @@ define('_WEB_URL', $http . $_SERVER["HTTP_HOST"] . str_replace($_SERVER["DOCUMEN
 #程式檔名(含副檔名)
 $WEB['file_name'] = basename($_SERVER['PHP_SELF']); //index.php
 if($WEB['file_name'] == "index.php"){
-  $WEB['web_title'] = "育將電腦工作室";
+  $WEB['web_title'] = "XX幼兒園";
 }elseif($WEB['file_name'] == "user.php"){
   $WEB['web_title'] = "會員管理";
 }elseif($WEB['file_name'] == "prod.php"){
   $WEB['web_title'] = "商品管理";
 }elseif($WEB['file_name'] == "kind.php"){
   $WEB['web_title'] = "類別管理";
-}elseif($WEB['file_name'] == "supplier.php"){
-  $WEB['web_title'] = "供應商管理";
 }elseif($WEB['file_name'] == "menu.php"){
   $WEB['web_title'] = "選單管理";
 }elseif($WEB['file_name'] == "slide.php"){
   $WEB['web_title'] = "輪播圖管理";
 }elseif($WEB['file_name'] == "cart.php"){
-  $WEB['web_title'] = "購物車";    
+  $WEB['web_title'] = "購物車";
+}elseif($WEB['file_name'] == "contact.php"){
+  $WEB['web_title'] = "聯絡我們管理";
+}elseif($WEB['file_name'] == "order.php"){
+  $WEB['web_title'] = "訂單管理";
 }else{
   $WEB['web_title'] = "";//
 }
@@ -106,4 +108,4 @@ $_SESSION['message'] = "";
 $_SESSION['time'] = "";
 
 #購物車圖示
-$_SESSION['cartCount'] = isset($_SESSION['cartCount']) ? $_SESSION['cartCount'] : 0;
+$_SESSION['cartAmount'] = isset($_SESSION['cartAmount']) ? $_SESSION['cartAmount'] : 0;

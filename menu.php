@@ -17,6 +17,10 @@ $kinds['cartMenu'] = array(
   "value" => "cartMenu",
   "title" => "購物車選單"
 );
+$kinds['cartMenu1'] = array(
+  "value" => "cartMenu1",
+  "title" => "購物車選單1"
+);
 
 $smarty->assign("kinds", $kinds);
 
@@ -184,3 +188,6 @@ function op_list($kind){
   $smarty->assign("kind",$kind);  
 
 }
+
+
+

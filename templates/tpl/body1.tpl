@@ -25,7 +25,7 @@
             <div class="carousel-background"><img src="<{$xoImgUrl}>/img/intro-carousel/2.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>At vero eos et accusamus</h2>
+                <h2>With passion and love</h2>
                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
@@ -36,7 +36,7 @@
             <div class="carousel-background"><img src="<{$xoImgUrl}>/img/intro-carousel/3.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Temporibus autem quibusdam</h2>
+                <h2>let's bring happiness to our children</h2>
                 <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
@@ -47,7 +47,7 @@
             <div class="carousel-background"><img src="<{$xoImgUrl}>/img/intro-carousel/4.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
+                <h2>this is your best choice</h2>
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
@@ -58,7 +58,7 @@
             <div class="carousel-background"><img src="<{$xoImgUrl}>/img/intro-carousel/5.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
+                <h2>join us now</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
@@ -92,19 +92,19 @@
 
           <div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
+            <h4 class="title"><a href="">我們的願景</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
             <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <h4 class="title"><a href="">我們的夢</a></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
 
           <div class="col-lg-4 box">
             <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <h4 class="title"><a href="">我們的團隊</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
 
@@ -119,7 +119,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>About Us</h3>
+          <h3>園所介紹</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </header>
 
@@ -131,7 +131,7 @@
                 <img src="<{$xoImgUrl}>/img/about-mission.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <h2 class="title"><a href="#">本所使命</a></h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
@@ -144,7 +144,7 @@
                 <img src="<{$xoImgUrl}>/img/about-plan.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <h2 class="title"><a href="#">我們的理念</a></h2>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
               </p>
@@ -157,7 +157,7 @@
                 <img src="<{$xoImgUrl}>/img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <h2 class="title"><a href="#">我們的願景</a></h2>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
               </p>
@@ -176,8 +176,8 @@
       <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+          <h3>教學理念</h3>
+          <p>在這裡我們更尊重每位孩子的獨特性，相信幼兒具有主動學習的天性，並培養出具有自主性思考、會解決問題、身心健康、有品格、喜歡閱讀、有自信、有創意及五育均衡發展的下一代。</p>
         </header>
 
         <div class="row">
@@ -227,7 +227,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Skills</h3>
+          <h3>我們的資源</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
         </header>
 
@@ -235,25 +235,25 @@
 
           <div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">熱誠 <i class="val">100%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">CSS <i class="val">90%</i></span>
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">教學 <i class="val">95%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">師資 <i class="val">90%</i></span>
             </div>
           </div>
 
           <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">設備 <i class="val">85%</i></span>
             </div>
           </div>
 
@@ -277,22 +277,22 @@
 
   				<div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">274</span>
-            <p>Clients</p>
+            <p>評價</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">421</span>
-            <p>Projects</p>
+            <p>學生人數</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
+            <p>訓練技能</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
+            <p>所方教職員</p>
   				</div>
 
   			</div>
@@ -311,159 +311,29 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">活動剪影</h3>
         </header>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
+        
 
         <div class="row portfolio-container">
+          <{foreach $prods as $prod}>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+              <div class="portfolio-wrap">
+                <figure>
+                  <img src="<{$prod.prod}>" class="img-fluid" alt="<{$prod.title}>">
+                  <a href="<{$prod.prod}>" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </figure>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
+                <div class="portfolio-info">
+                  <h4><a href="#"><{$prod.title}></a></h4>                  
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<{$xoImgUrl}>/img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="<{$xoImgUrl}>/img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
+            <{/foreach}>
+          </div>         
         </div>
-
       </div>
     </section><!-- #portfolio -->
 
@@ -474,7 +344,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Our Clients</h3>
+          <h3>我們的服務</h3>
         </header>
 
         <div class="owl-carousel clients-carousel">
@@ -498,7 +368,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Testimonials</h3>
+          <h3>家長見證</h3>
         </header>
 
         <div class="owl-carousel testimonials-carousel">
@@ -562,94 +432,4 @@
 
       </div>
     </section><!-- #testimonials -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team">
-      <div class="container">
-        <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="<{$xoImgUrl}>/img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="<{$xoImgUrl}>/img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="<{$xoImgUrl}>/img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="<{$xoImgUrl}>/img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
   </main>

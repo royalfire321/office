@@ -8,6 +8,10 @@ $sn = system_CleanVars($_REQUEST, 'sn', '', 'int');
 
 /* 程式流程 */
 switch ($op){
+  case "contact_insert" :
+    $msg = contact_insert();
+    redirect_header("index.php", $msg , 5000);
+    exit;
 
   case "reg" :
     $msg = reg();
@@ -44,10 +48,14 @@ switch ($op){
 
   default:
     $op = "op_list";
+
+    $_SESSION['returnUrl'] = getCurrentUrl();
+
     $mainSlides = getMenus("mainSlide",true);
     $smarty->assign("mainSlides", $mainSlides);
+    op_list();
     
-    // print_r($mainSlides);die();
+    #取得商品資料(含圖)
 
     break;  
 }
@@ -56,14 +64,82 @@ switch ($op){
   $smarty->assign("mainMenus", $mainMenus);
   $smarty->assign("WEB", $WEB);
   $smarty->assign("op", $op);
+  $news = getNews("new",true);
+  $smarty->assign("news", $news);
+  // print_r($news); die();
    
 /*---- 程式結尾-----*/
 $smarty->display('theme.tpl');
 
 //----函數區
+function getNews(){
+  global $smarty,$db;
+  
+  $sql = "SELECT * FROM `news` 
+  ";//die($sql);
+
+
+  $result = $db->query($sql) or die($db->error() . $sql);
+  $rows=[];//array();
+  while($row = $result->fetch_assoc()){    
+    $row['newn'] = (int)$row['newn'];//分類
+    $row['title'] = htmlspecialchars($row['title']);//標題
+    $row['content'] = htmlspecialchars($row['content']);
+    $row['date'] = htmlspecialchars($row['date']);
+    $row['date'] = date("Y-m-d",$row['date']);
+    $rows[] = $row;
+  }
+  return $rows;
+
+
+}
+
+function op_list(){
+  global $db,$smarty;
+  
+  $sql = "SELECT a.*,b.title as kinds_title
+          FROM `prods` as a
+          LEFT JOIN `kinds` as b on a.kind_sn=b.sn
+          WHERE a.`enable`='1'
+          ORDER BY a.`date` desc
+          LIMIT 6;
+  ";//die($sql);
+
+  $result = $db->query($sql) or die($db->error() . $sql);
+  $rows=[];//array();
+  while($row = $result->fetch_assoc()){    
+    $row['sn'] = (int)$row['sn'];//分類
+    $row['title'] = htmlspecialchars($row['title']);//標題 
+    $row['prod'] = getFilesByKindColsnSort("prod",$row['sn']);
+    $row['kinds_title'] = htmlspecialchars($row['kinds_title']);//標題
+    $rows[] = $row;
+  }
+  $smarty->assign("prods",$rows);  
+
+}
+function contact_insert(){
+  global $db;
+  
+  $_POST['name'] = db_filter($_POST['name'], 'name');
+  $_POST['tel'] = db_filter($_POST['tel'], 'tel');
+  $_POST['email'] = db_filter($_POST['email'], 'email');
+  $_POST['content'] = db_filter($_POST['content'], 'content');
+  $_POST['date'] = strtotime("now");
+  
+  $sql="INSERT INTO `contacts` 
+                    (`name`, `tel`, `email`, `content`, `date`)
+                    VALUES 
+                    ('{$_POST['name']}', '{$_POST['tel']}', '{$_POST['email']}', '{$_POST['content']}', '{$_POST['date']}')  
+  ";
+  $result = $db->query($sql) or die($db->error() . $sql);
+  return "我們已收到您的聯絡事項，將儘快與您聯絡！";
+}
 
 
 function contact_form(){
+  global $smarty;
+  $row['op'] = "contact_insert";
+  $smarty->assign("row", $row);
 
 }
 function ok(){

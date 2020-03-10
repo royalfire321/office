@@ -91,7 +91,7 @@ function op_insert($zn=""){
 
 }
 /*===========================
-  用sn取得商品檔資料
+  用zn取得商品檔資料
 ===========================*/
 function getSuppliersByZn($zn){
   global $db;

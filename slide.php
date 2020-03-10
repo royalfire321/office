@@ -232,3 +232,6 @@ function op_list($kind){
   $smarty->assign("kind",$kind);  
 
 }
+
+
+
