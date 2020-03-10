@@ -41,6 +41,7 @@ if($WEB['file_name'] == "index.php"){
 }else{
   $WEB['web_title'] = "";//
 }
+
 //basename(__FILE__)head.php
 #--------- WEB END -----
  

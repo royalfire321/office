@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-03-10 15:23:02
+/* Smarty version 3.1.34-dev-7, created on 2020-03-10 17:37:32
   from 'D:\xampp\htdocs\kindergarten1\templates\theme.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e674056f258f8_47364347',
+  'unifunc' => 'content_5e675fdc9f8e59_36920130',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cb6444fc9a3a5e36e01f5c6086132078cddc58f2' => 
     array (
       0 => 'D:\\xampp\\htdocs\\kindergarten1\\templates\\theme.tpl',
-      1 => 1583398370,
+      1 => 1583833048,
       2 => 'file',
     ),
   ),
@@ -25,12 +25,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:tpl/footer1.tpl' => 1,
   ),
 ),false)) {
-function content_5e674056f258f8_47364347 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e675fdc9f8e59_36920130 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>BizPage Bootstrap Template</title>
+  <title><?php echo $_smarty_tpl->tpl_vars['WEB']->value['web_title'];?>
+</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
